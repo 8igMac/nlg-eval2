@@ -1,5 +1,5 @@
 # nlg-eval2
-Large language model (LLM) for example, [GPT-4](https://openai.com/product/gpt-4),
+Large language model (LLM) like [GPT-4](https://openai.com/product/gpt-4)
 are getting more and more powerful. The advancement of evaluation metrics 
 for natural language generation (NLG) tasks have seems to fall behind. 
 This repo aims to collect different modern evaluation metrics for NLG 
