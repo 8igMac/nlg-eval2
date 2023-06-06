@@ -8,6 +8,7 @@ in the post LLM era.
 ## Evaluation Method in Pre-LLM Era
 - BLEU ([Papineni et al., 2002. Bleu: a Method for Automatic Evaluation of Machine Translatio](https://aclanthology.org/P02-1040/))
 - ROUGE ([Chin-Yew Lin, 2004](https://www.microsoft.com/en-us/research/publication/rouge-a-package-for-automatic-evaluation-of-summaries/))
+- METEOR ([Satanjeev Banerjee and Alon Lavie. 2005. Meteor: An automatic metric for mt evaluation with improved correlation with human judgments.](https://aclanthology.org/W05-0909/))
 - BERTScore ([Zhang et al., 2019. BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/abs/1904.09675))
     - Criticism
         - [Michael Hanna and Ondřej Bojar, 2021. A Fine-Grained Analysis of BERTScore](https://aclanthology.org/2021.wmt-1.59/)
