@@ -52,3 +52,10 @@ What we are looking for is "relevant" and "diverse" information. (orthogonal in 
 to calculate degree of seperation.
 - Approach 2: Develop another GPT-based method, GPT-orthogonal, that prompt GPT to spot different
 information point in a text. (**How to prove robustness of this method?**)
+
+## Types of evaluation metrics
+- Similarity-based: Require preparation of gold reference and use some kind of mechansim
+to perform similarity comparison between the predicted answer and the gold reference. 
+(e.g., BERTScore, GPT-F1, BLEU)
+- Reference-free: Don't need to prepare gold reference. (e.g., As a human evaluator to vote
+for different indicators, like fluency, consistency, etc.)
