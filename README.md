@@ -5,6 +5,9 @@ for natural language generation (NLG) tasks have seems to fall behind.
 This repo aims to collect different modern evaluation metrics for NLG 
 in the post LLM era.
 
+## Updates
+- 2023.07.01 Add new evaluation metrics: [Concept F1](./concept_f1.md).
+
 ## Evaluation Method in Pre-LLM Era
 - BLEU ([Papineni et al., 2002. Bleu: a Method for Automatic Evaluation of Machine Translatio](https://aclanthology.org/P02-1040/))
 - ROUGE ([Chin-Yew Lin, 2004](https://www.microsoft.com/en-us/research/publication/rouge-a-package-for-automatic-evaluation-of-summaries/))
@@ -16,6 +19,7 @@ in the post LLM era.
     - [BertScore on HuggingFace](https://huggingface.co/spaces/evaluate-metric/bertscore)
 
 ## Evaluation Method in Post-LLM Era
+- [Concept F1](./concept_f1.md)
 - GPT-based (See [this repo](https://github.com/THU-KEG/EvaluationPapers4ChatGPT#31-metrics) for more related paper.)
     - [DERA: Enhancing Large Language Model Completions with Dialog-Enabled Resolving Agents, Nair et al., 2023](https://arxiv.org/abs/2303.17071)
     - GPT-exact
