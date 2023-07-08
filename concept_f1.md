@@ -38,7 +38,7 @@ $$
 
 where $\epsilon$ is the threshold, and $MostSimilarConceptScore(c_i,\hat{y})$ 
 is the maximum similarity score between concept $c_i$ 
-and each of the concepts $c_j$ in the gold answer $C(y)$,
+and each of the concepts $c_j$ in the gold answer $C(\hat{y})$,
 which is defined in Equation (3).
 
 $$
