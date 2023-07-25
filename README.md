@@ -6,6 +6,8 @@ This repo aims to collect different modern evaluation metrics for NLG
 in the post LLM era.
 
 ## Updates
+- 2023.07.25 Paper worth reading[Beyond Statistical Similarity: Rethinking Metrics for Deep Generative Models in Engineering Design](https://arxiv.org/abs/2302.02913): How do you evaluate the design
+that ChatGPT generated compare to human design? Which was better?
 - 2023.07.01 Add new evaluation metrics: [Concept F1](./concept_f1.md).
 
 ## Evaluation Method in Pre-LLM Era
