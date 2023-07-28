@@ -21,15 +21,15 @@ answer $\hat{y}$ as Equation (1):
 
 $$
 \tag{1}
-ConceptHits(y,\hat{y})=\sum_{c_i \in C(y)}^{} ConceptInSentense(c_i,\hat{y}),
+ConceptHits(y,\hat{y})=\sum_{c_i \in C(y)}^{} ConceptInSentence(c_i,\hat{y}),
 $$
 
-where $ConceptInSentense(c_i,\hat{y})$ indicates if concept $c_i$ appear in 
+where $ConceptInSentence(c_i,\hat{y})$ indicates if concept $c_i$ appear in 
 gold answer $\hat{y}$ (see Equation 2).
 
 $$
 \tag{2}
-ConceptInSentense(c_i,\hat{y})=
+ConceptInSentence(c_i,\hat{y})=
 \begin{cases}
   1, & \text{if } MostSimilarConceptScore(c_i,\hat{y}) \geq \epsilon \\
   0, & \text{otherwise,}
