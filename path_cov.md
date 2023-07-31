@@ -2,7 +2,12 @@
 
 $$
 \tag{1}
-ArgumentTreeSimilarity(t,\hat{t})=\frac{\sum_{p_i \in Path(\hat{t})}^{} PathInTree(p_i,t)}{\left|{Path(\hat{t})}\right|},
+ArgumentTreeSimilarity(t,\hat{t})=\frac{PathHits(t,\hat{t})}{\left|{Path(\hat{t})}\right|},
+$$
+
+$$
+\tag{1}
+PathHits(t,\hat{t})=\sum_{p_i \in Path(\hat{t})}^{} PathInTree(p_i,t),
 $$
 
 $$
