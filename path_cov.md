@@ -2,24 +2,34 @@
 
 $$
 \tag{1}
-ArgumentTreeSimilarity(t,\hat{t})=\frac{PathHits(t,\hat{t})}{\left|{Path(\hat{t})}\right|},
+Paph(t)=\{p_1, p_2, ... ,p_i, ... ,p_n\},
 $$
 
 $$
 \tag{2}
-PathHits(t,\hat{t})=\sum_{p_i \in Path(\hat{t})}^{} PathInTree(p_i,t),
+Paph(\hat{t})=\{p_1, p_2, ... ,p_j, ... ,p_m\},
 $$
 
 $$
 \tag{3}
-PathInTree(p_i, t)=
+ArgumentTreeSimilarity(t,\hat{t})=\frac{PathHits(t,\hat{t})}{\left|{Path(\hat{t})}\right|},
+$$
+
+$$
+\tag{4}
+PathHits(t,\hat{t})=\sum_{p_j \in Path(\hat{t})}^{} PathInTree(p_j,t),
+$$
+
+$$
+\tag{5}
+PathInTree(p_j, t)=
 \begin{cases}
-  1, & \text{if } MostSimilarPathScore(p_i,t) \geq \epsilon \\
+  1, & \text{if } MostSimilarPathScore(p_j,t) \geq \epsilon \\
   0, & \text{otherwise,}
 \end{cases}
 $$
 
 $$
-\tag{4}
-MostSimilarPathScore(p_i,t)=max(Similarity(p_i,p_j)), p_j \in Path(t),
+\tag{6}
+MostSimilarPathScore(p_j,t)=max(Similarity(p_j,p_i)), p_i \in Path(t),
 $$
